@@ -17,4 +17,4 @@ def get_frequencies_for_all_files(directory_path):
                 ouput_frequencies_to_file(root +"\\" +  file + '-frequencies.csv',tag_frequencies)
 
 if __name__ == '__main__':
-    get_frequencies_for_all_files(r"C:\Users\nikhi\Desktop\Files\XpertDox\SAS_QC_Counts")
+    get_frequencies_for_all_files(FilePath)
